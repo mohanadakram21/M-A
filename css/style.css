@@ -1,0 +1,165 @@
+@charset "UTF-8";
+body {
+    background-color: rgba(0,103,108,1.00);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+.navbar-light .navbar-brand{
+    color: rgba(0,106,143,1.00);
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.navbar-light .navbar-brand:hover{
+    color: rgba(58,176,195,1.00);	
+}
+
+
+#leftSec {
+    width: 28%;
+    margin-left: 3%;
+    margin-right: 1.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+    color: rgba(11,0,0,1.00);
+	 background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(250,246,246,0.50) 98.68%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(250,246,246,0.50) 98.68%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(250,246,246,0.50) 98.68%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(250,246,246,0.50) 98.68%,rgba(255,255,255,1.00) 100%);
+    border-top-right-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#rightSec h1 {
+    color: rgba(245,232,233,1.00);
+    text-align: center;
+    font-style: normal;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-shadow: 3px 3px 5px rgba(0,0,0,1.00);
+}
+#rightSec {
+    width: 55%;
+    margin-left: 1.5%;
+    margin-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: right;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(250,246,246,0.50) 98.68%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(250,246,246,0.50) 98.68%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(250,246,246,0.50) 98.68%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(250,246,246,0.50) 98.68%,rgba(255,255,255,1.00) 100%);
+    border-top-right-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#leftSec h2 {
+    color: rgba(0,0,0,1.00);
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+p {
+    color: rgba(0,0,0,1.00);
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+body footer {
+    text-align: center;
+    color: rgba(0,0,0,1.00);
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,251,251,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,251,251,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,251,251,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,251,251,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    padding-top: 50px;
+}
+
+label,input{
+	width: 100%;
+}
+
+@media (max-width:600px){
+body {
+    background-image: none;
+	
+}
+#leftSec {
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+	#rightSec {
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+	iframe{
+    border-width: 0px;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type=submit]:hover {
+    opacity: 0.8;
+  }
+  
+  
+	
+}
